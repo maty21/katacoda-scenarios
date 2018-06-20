@@ -1,27 +1,56 @@
 {
-  "title": "Hello World Scenario",
-  "description": "Your First Scenario",
+  "pathwayTitle": "Pathway Title",
+  "title": "Scenario Title",
+  "description": "Scenario Description",
   "difficulty": "beginner",
-  "time": "2 minutes",
+  "time": "5-10 minutes",
   "details": {
-     "intro": {
-    "courseData": "courseBase.sh",
-  },
-    "steps": [{
-      "title": "Step 1 - Run Command",
-      "text": "step1.md"
-    }],
+    "steps": [
+      {
+        "title": "Step Title",
+        "text": "step1.md",
+        "answer": "step1-answer.md",
+        "verify": "step1-verify.sh",
+        "courseData": "run-command-in-background.sh",
+        "code": "run-command-in-terminal.sh"
+      },
+      {
+        "title": "Step 2 - Step Title",
+        "text": "step2.md"
+      }
+    ],
     "intro": {
       "text": "intro.md",
-      "credits": ""
+      "courseData": "courseBase.sh",
+      "credits": "",
+      "code": "changecd.sh"
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "docker-compose.yml",
+          "target": "~/"
+        }
+      ],
+      "host01": [
+        {
+          "file": "config.yml",
+          "target": "~/"
+        }
+      ]
     }
   },
+  "files": [
+    "app.js"
+  ],
   "environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "Tab Name", "port": 80}, {"name": "Tab Name", "port": 8080}],
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
   },
   "backend": {
     "imageid": "kubernetes"
