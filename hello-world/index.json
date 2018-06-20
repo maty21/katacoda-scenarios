@@ -9,7 +9,7 @@
       {
         "title": "Step Title",
         "text": "step1.md",
-        "answer": "step1-answer.md",
+        "answer": "step2.md",
         "verify": "courseBase.sh",
         "courseData": "courseBase.sh",
         "code": "courseBase.sh"
