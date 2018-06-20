@@ -10,9 +10,9 @@
         "title": "Step Title",
         "text": "step1.md",
         "answer": "step1-answer.md",
-        "verify": "step1-verify.sh",
-        "courseData": "run-command-in-background.sh",
-        "code": "run-command-in-terminal.sh"
+        "verify": "courseBase.sh",
+        "courseData": "courseBase.sh",
+        "code": "courseBase.sh"
       },
       {
         "title": "Step 2 - Step Title",
@@ -23,29 +23,13 @@
       "text": "intro.md",
       "courseData": "courseBase.sh",
       "credits": "",
-      "code": "changecd.sh"
+      "code": "courseBase.sh"
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "client": [
-        {
-          "file": "docker-compose.yml",
-          "target": "~/"
-        }
-      ],
-      "host01": [
-        {
-          "file": "config.yml",
-          "target": "~/"
-        }
-      ]
     }
   },
-  "files": [
-    "app.js"
-  ],
+  
   "environment": {
     "showdashboard": true,
     "dashboards": [{"name": "Tab Name", "port": 80}, {"name": "Tab Name", "port": 8080}],
