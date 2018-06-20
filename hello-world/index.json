@@ -11,7 +11,7 @@
         "text": "step1.md",
         "answer": "step2.md",
         "verify": "courseBase.sh",
-        "courseData": "courseBase.sh",
+        "courseData": "pre.sh",
         "code": "courseBase.sh"
       },
       {
