@@ -23,7 +23,7 @@
       "text": "intro.md",
       "courseData": "pre.sh",
       "credits": "",
-      "code": "pre.sh"
+      "code": "courseBase.sh"
     },
     "finish": {
       "text": "finish.md"
