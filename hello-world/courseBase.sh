@@ -1,2 +1,2 @@
-printf hello-world
+printf installing node.js 
 export VARNAME="my value"  
