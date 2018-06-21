@@ -10,3 +10,4 @@ echo '~~~cloning charts~~~'
 git clone https://github.com/maty21/katacoda-helm
 export VARNAME="my value"  
 sudo apt-get install -y nodejs
+echo '~~~ddddds charts~~~'
