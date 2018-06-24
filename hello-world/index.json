@@ -7,14 +7,18 @@
   "details": {
     "steps": [
       {
-        "title": "Step Title",
+        "title": "Install Prerequisite",
         "text": "step1.md",
         "courseData": "pre.sh",
         "code": "courseBase.sh"
       },
       {
-        "title": "Step 2 - Step Title",
+        "title": "Install Third parties",
         "text": "step2.md"
+      },
+      {
+        "title": "Install Core",
+        "text": "step3.md"
       }
     ],
     "intro": {
