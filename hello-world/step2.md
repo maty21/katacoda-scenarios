@@ -1,7 +1,7 @@
 ## let install hkube 
  since we already started from kubernetes image we need to install hkube as a layer on top of it 
 
- hkube has helm chart for installing its third parties and core modules in but, for this tutorial we will run a slim version of it 
+ hkube has helm chart for installing its **third parties** and **core modules** in. but, for this tutorial we will run a slim version of it 
 
 - first we will install hkube third parties via helm 
 - run `helm install https://github.com/maty21/katacoda-helm/raw/master/etcd.tar.gz`{{execute}}
@@ -13,7 +13,7 @@
 
 - the last step is to run  `hkube deploy -c`{{execute}}
 
-  after hkube is installed on our cluster we  are ready to go for the next step
+  after hkube is installed on our cluster we are ready to go for the next step
 
 
 - install hkube deployment cli `npm i -g @hkube/hkubectl`{{execute}}
