@@ -8,6 +8,7 @@ lets start by installing hkube on kubernetes
 ### test prerequisite are ok 
 1. run `kubectl get nodes`{{execute}} - wait for node to be on ready state 
 2. run `node --version`{{execute}} - version should be 10.x
+3. run `helm init`{{execute}}
 3. run `helm version`{{execute}}- verify that helm installed correctly  
 now we ready to start the journey :)
 
