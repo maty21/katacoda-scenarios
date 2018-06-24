@@ -1,7 +1,7 @@
 {
-  "pathwayTitle": "Pathway Title",
-  "title": "Scenario Title",
-  "description": "Scenario Description",
+  "pathwayTitle": "HKUBE",
+  "title": "Hkube installation",
+  "description": "In this tutorial you will discover the basic consepts of HKUBE and learn how to run it on your cluster ",
   "difficulty": "beginner",
   "time": "5-10 minutes",
   "details": {
@@ -33,9 +33,11 @@
   },
   
   "environment": {
+    "icon": "fa-kubernetes",
     "showdashboard": true,
     "dashboards": [{"name": "Tab Name", "port": 80}, {"name": "Tab Name", "port": 8080}],
     "uilayout": "terminal",
+    "uisettings": "javascript",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
   },
   "backend": {
