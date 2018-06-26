@@ -9,7 +9,9 @@ lets start by installing hkube on kubernetes
 1. run `kubectl get nodes`{{execute}} - wait for node to be on ready state( it should take something like 1 minute)
 2. run `node --version`{{execute}} - version should be 10.x
 3. run `helm init`{{execute}}
-3. run `helm version`{{execute}}- verify that helm installed correctly  (client adn server should be found)
+4. run `helm version`{{execute}}- verify that helm installed correctly  (client adn server should be found)
+5. lets add labels to our kubernetes cluster we have to selectors one for hkube core modules and the second is for nodes you wish to run your algorithms. for this tutorial since we have only one node we will set it as core and as a worker
+for doing it we should  run `kubectl label node master core=true worker=true`{{execute}} 
 now we ready to start the journey :)
 
 
