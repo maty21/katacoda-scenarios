@@ -17,9 +17,14 @@
         "text": "step2.md"
       },
       {
-        "title": "Install Core",
+        "title": "Install hkubectl",
         "text": "step3.md"
+      },
+      {
+        "title": "Create your first algorithm",
+        "text": "step4.md"
       }
+      
     ],
     "intro": {
       "text": "intro.md",
