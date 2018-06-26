@@ -1,7 +1,9 @@
 
 ### Welcome to your first steps in hkube world we believe that you already familiar with kubernetes and docker.
 
-# SO you probably asking What is **HKUBE** ? 
+
+
+# So you probably asking What is **HKUBE** ? 
 
 
 **Hkube** is an open source, language agnostic framework to run distributed pipeline of algorithms that is built on Kubernetes. 

@@ -16,8 +16,8 @@
   after hkube is installed on our cluster we are ready to go for the next step
 
 
-- install hkube deployment cli `npm i -g @hkube/hkubectl`{{execute}}
-- run `hkubectl -h`{{execute}} 
+
+
 
 
 
