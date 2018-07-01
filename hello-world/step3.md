@@ -5,3 +5,4 @@ hkubectl is a tool which allows you to create most of the operations that you ne
  - add hkubectl to root `cp ./hkubectl /usr/local/bin`{{execute}}
  - run `hkubectl -h`{{execute}} as you can see there a lot of options available 
  - for example in order to view all available algorithms `hkubectl --endpoint=https://master/hkube/api-server/ algorithm get`{{execute}}
+
