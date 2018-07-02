@@ -14,7 +14,7 @@ lets start by installing hkube on kubernetes
 for doing it we should  run `kubectl label node master core=true worker=true`{{execute}}   
 
 -  final step is to add secret to our s3 
-`kubectl create secret generic s3-secret --from-literal="awsKey=AKIAIOSFODNN7EXAMPLE" --from-literal="awsSecret=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY" --from-literal="awsEndpointUrl=http://hkube-core-minio:9000"`{{execute}}
+`kubectl create secret generic s3-secret --from-literal="awsKey=AKIAIOSFODNN7EXAMPLE" --from-literal="awsSecret=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY" --from-literal="awsEndpointUrl=http://third-party-minio:9000"`{{execute}}
 
 
 ### important dont continue until all previous steps done successfully.   
