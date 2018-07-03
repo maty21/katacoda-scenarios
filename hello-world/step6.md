@@ -21,5 +21,6 @@ there are more options . if you wish to learn more visit http://hkube.io/learn/
 
 
 
+- now get res `curl -X POST -H "Content-Type: application/json" -d @"pipeline.json" http://master/hkube/api-server/api/v1/exec/results/jobid`{{execute}}
 
 
