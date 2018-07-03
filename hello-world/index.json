@@ -13,10 +13,6 @@
         "code": "courseBase.sh"
       },
       {
-        "title": "Install Third parties",
-        "text": "step2.md"
-      },
-      {
         "title": "Install hkubectl",
         "text": "step3.md"
       },
@@ -27,6 +23,10 @@
       {
         "title": "add your algorithm to hkube",
         "text": "step5.md"
+      },
+      {
+        "title": "Install Third parties",
+        "text": "step2.md"
       },
       {
         "title": "create pipeline",
