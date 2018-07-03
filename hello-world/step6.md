@@ -17,7 +17,7 @@ as you can see there is a JSON file which demonstrates the pipeline flow lets mo
 there are more options . if you wish to learn more visit http://hkube.io/learn/
 
 - lets change `flowinput.name` to your name 
-- now in the  terminal lets run  `curl -X POST -H "Content-Type: application/json" -d @./pipeline.json http://master/hkube/api-server/api/v1/exec/raw/`{{execute}}
+- now in the  terminal lets run  `curl -X POST -H "Content-Type: application/json" -d @"pipeline.json" http://master/hkube/api-server/api/v1/exec/raw/`{{execute}}
 
 
 
