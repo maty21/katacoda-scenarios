@@ -49,12 +49,12 @@
     "icon": "fa-kubernetes",
     "showdashboard": true,
     "dashboards": [{"name": "Tab Name", "port": 80}, {"name": "Tab Name", "port": 8080}],
-    "uilayout": "terminal-terminal",
+    "uilayout": "editor-terminal",
     "uisettings": "javascript",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "kubernetes-cluster"
+    "imageid": "kubernetes"
   },
   "assets": {
       "pipeline": [
