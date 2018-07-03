@@ -60,7 +60,7 @@
       "pipeline": [
         {
           "file": "pipeline.json",
-          "target": "~/pipeline"
+          "target": "~/"
         }
       ]
     }
