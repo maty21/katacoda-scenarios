@@ -1,7 +1,7 @@
 {
   "pathwayTitle": "HKUBE",
   "title": "Hkube installation",
-  "description": "In this tutorial you will discover the basic consepts of HKUBE and learn how to run it on your cluster ",
+  "description": "In this tutorial you will discover the basic concepts of HKUBE and learn how to run it on your cluster ",
   "difficulty": "beginner",
   "time": "10-20 minutes",
   "details": {
@@ -27,6 +27,10 @@
       {
         "title": "add your algorithm to hkube",
         "text": "step5.md"
+      },
+      {
+        "title": "create pipeline",
+        "text": "step6.md"
       }
       
     ],
@@ -45,11 +49,18 @@
     "icon": "fa-kubernetes",
     "showdashboard": true,
     "dashboards": [{"name": "Tab Name", "port": 80}, {"name": "Tab Name", "port": 8080}],
-    "uilayout": "editor-terminal",
+    "uilayout": "terminal-terminal",
     "uisettings": "javascript",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "kubernetes"
-  }
+    "imageid": "kubernetes-cluster"
+  },
+  "assets": {
+      "pipeline": [
+        {
+          "file": "pipeline.json",
+          "target": "~/pipeline"
+        }
+      ]
 }

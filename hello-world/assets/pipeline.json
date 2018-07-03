@@ -1,0 +1,17 @@
+{
+    "name": "simple",
+    "nodes": [
+        {
+            "nodeName": "alg-example",
+            "algorithmName": "alg-example",
+            "input": [
+                "@flowInput.name"
+            ]
+        }
+    ],
+    "flowInput": {
+        "files": {
+            "name": "david"
+        }
+    }
+}

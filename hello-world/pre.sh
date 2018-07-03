@@ -8,4 +8,4 @@ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 echo '~~~cloning charts~~~'
 git clone https://github.com/maty21/katacoda-helm
 export VARNAME="my value"  
-apt-get install -y nodejs
+apt-get install -y nodejs && nano
